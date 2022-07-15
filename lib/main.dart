@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:recipes_project/category-screen.dart';
+import 'package:recipes_project/recipe.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,8 +14,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        primarySwatch: Colors.orange,
+      ),
+      routes: {
+        '/': (context) => HomePage(),
+        '/recipes': (context) => Recipe(),
+      },
+      initialRoute: '/', // yang pertama di buka
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
     );
   }
 }
@@ -30,8 +38,6 @@ class HomePage extends StatelessWidget {
           "Recipes",
           style: TextStyle(color: Colors.black),
         ),
-        elevation: 0,
-        backgroundColor: Colors.transparent,
         centerTitle: true,
       ),
       body: CategoryScreen(),

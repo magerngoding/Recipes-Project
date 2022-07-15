@@ -1,7 +1,6 @@
 // ignore_for_file: file_names, prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:recipes_project/recipe.dart';
 
 class CategoryItem extends StatelessWidget {
   final String id;
@@ -14,14 +13,14 @@ class CategoryItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.push(
+        // Kalo route pake pushNamed
+        Navigator.pushNamed(
           context,
-          MaterialPageRoute(
-            builder: (context) => Recipe(
-              idCategory: id,
-              title: title,
-            ),
-          ),
+          '/recipes',
+          arguments: {
+            'id': id,
+            'title': title,
+          },
         );
       },
       child: Container(
