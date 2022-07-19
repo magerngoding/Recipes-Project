@@ -54,7 +54,6 @@ class CategoryItem extends StatelessWidget {
               ],
               begin: Alignment.bottomCenter,
               end: Alignment.topCenter,
-              stops: [0.1, 0.7],
             ),
           ),
           child: Text(

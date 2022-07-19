@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:recipes_project/category-screen.dart';
+import 'package:recipes_project/details-food.dart';
 import 'package:recipes_project/recipe.dart';
 
 void main() {
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => HomePage(),
         '/recipes': (context) => Recipe(),
+        '/details-food': (context) => DetailsFood(),
       },
       initialRoute: '/', // yang pertama di buka
       debugShowCheckedModeBanner: false,
