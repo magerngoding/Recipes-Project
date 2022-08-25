@@ -26,6 +26,7 @@ class CategoryItem extends StatelessWidget {
       child: Container(
         // color dimasukin ke box decoration jika erorr screen merah
         decoration: BoxDecoration(
+          // ignore: prefer_const_literals_to_create_immutables
           boxShadow: [
             BoxShadow(
               color: Color.fromARGB(70, 0, 0, 0),

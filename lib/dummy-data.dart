@@ -17,7 +17,7 @@ List<Category> dummyCategories = [
   ),
   Category(
     id: "id_noodle",
-    title: "Noodle",
+    title: "Mie Instan",
     images:
         "https://hot-thai-kitchen.com/wp-content/uploads/2021/11/chili-garlic-noodles-blog.jpg",
   ),
@@ -29,7 +29,7 @@ List<Category> dummyCategories = [
   ),
   Category(
     id: "id_fastfood",
-    title: "Fast Food",
+    title: "Makanan Cepat",
     images:
         "https://storage.googleapis.com/cdn-1.pintaria.com/wp/roti-burger-Pintaria-200806023904.jpg",
   ),
@@ -86,7 +86,8 @@ List<Food> dummy_food = [
       "Bawang Putih",
     ],
     duration: 15,
-    imageUrl: "https://resepkoki.co/wp-content/uploads/2015/04/bebekbakar.jpg",
+    imageUrl:
+        "https://ecs7.tokopedia.net/img/cache/700/product-1/2017/12/28/247301337/247301337_bf252047-046e-4aaa-9076-2b43f0b631ab_1080_810.jpg",
   ),
   Food(
     id: DateTime.now().toString(),
@@ -114,7 +115,7 @@ List<Food> dummy_food = [
     ],
     duration: 5,
     imageUrl:
-        "https://www.simplyrecipes.com/thmb/qu-AslBeskzh_HG9H0dQAmcrdLQ=/648x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__09__easy-pepperoni-pizza-lead-4-82c60893fcad4ade906a8a9f59b8da9d.jpg",
+        "https://images.unsplash.com/photo-1590947132387-155cc02f3212?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
   ),
   Food(
     id: DateTime.now().toString(),
@@ -154,7 +155,7 @@ List<Food> dummy_food = [
     ],
     duration: 15,
     imageUrl:
-        "https://www.fimela.com/food/read/4255116/resep-mie-goreng-spesial-bakso-sosis-telur",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Mi_goreng.JPG/1200px-Mi_goreng.JPG",
   ),
   Food(
     id: DateTime.now().toString(),

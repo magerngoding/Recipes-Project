@@ -40,6 +40,21 @@ class HomePage extends StatelessWidget {
           "Recipes",
           style: TextStyle(color: Colors.black),
         ),
+        // ignore: prefer_const_literals_to_create_immutables
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: Icon(
+              Icons.search,
+            ),
+          ),
+          IconButton(
+            onPressed: () {},
+            icon: Icon(
+              Icons.more_vert_rounded,
+            ),
+          ),
+        ],
         centerTitle: true,
       ),
       body: CategoryScreen(),
